@@ -18,3 +18,23 @@ C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomati
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\ClassLibrary1\obj\Debug\PegasusAutomationFramework.csprojResolveAssemblyReference.cache
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\log4net.dll
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\WebDriver.dll
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\WebDriver.Support.dll
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\log4net.xml
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\WebDriver.pdb
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\WebDriver.xml
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\WebDriver.Support.pdb
+D:\Pegasus.Automation\ClassLibrary1\bin\Debug\WebDriver.Support.xml
+D:\Pegasus.Automation\ClassLibrary1\obj\Debug\PegasusAutomationFramework.csprojResolveAssemblyReference.cache
+D:\Pegasus.Automation\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\Pegasus.Automation\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

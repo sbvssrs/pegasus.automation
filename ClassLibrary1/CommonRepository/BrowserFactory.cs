@@ -22,7 +22,6 @@ namespace PegasusAutomationFramework.CommonRepository
            string Environment = "CGIE";
            string Browser = (ConfigurationManager.AppSettings["Browser"]).ToString();
            //string Environment = (ConfigurationManager.AppSettings["Environement"]).ToString();
-           // string url = (ConfigurationManager.AppSettings["URL"]).ToString();
 
             switch(Browser)
             {

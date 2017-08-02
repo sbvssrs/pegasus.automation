@@ -25,3 +25,30 @@ C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomati
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\Pegasus.Pages\obj\Debug\Pegasus.Pages.dll
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\Pegasus.Pages\obj\Debug\Pegasus.Pages.pdb
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Instructor_Modules.ProgramAdminResources.resources
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\Pegasus.Pages.dll
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\Pegasus.Pages.pdb
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\ClassLibrary1.dll
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\log4net.dll
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.dll
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.Support.dll
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\ClassLibrary1.pdb
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\log4net.xml
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.pdb
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.xml
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.Support.pdb
+D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.Support.xml
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.csprojResolveAssemblyReference.cache
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Common_Modules.GlobalHomePageResourceresx.resources
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Common_Modules.LoginPageResource.resources
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Instructor_Modules.ProgramAdminResources.resources
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.csproj.GenerateResource.Cache
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.dll
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.pdb
