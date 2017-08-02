@@ -15,13 +15,13 @@ namespace PegasusAutomationFramework.CommonRepository
     public class AutomationManager
     {
         public static IWebDriver driver;
-        public void StarttheBrowser()
-        {
+        //public void StarttheBrowser()
+        //{
 
-            driver = new ChromeDriver(@"D:\chromedriver");
-            driver.Manage().Window.Maximize();
-            driver.Navigate().GoToUrl("https://pegasus5.qa.pegasus.pearsoncmg.com");  
-        }
+        //    driver = new ChromeDriver(@"D:\chromedriver");
+        //    driver.Manage().Window.Maximize();
+        //    driver.Navigate().GoToUrl("https://pegasus5.qa.pegasus.pearsoncmg.com");  
+        //}
 
         //public void StarttheBrowser()
         //{
