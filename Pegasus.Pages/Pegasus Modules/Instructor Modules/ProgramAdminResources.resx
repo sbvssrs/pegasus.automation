@@ -126,10 +126,13 @@
   <data name="ProgramAdmin_AddTemplate_SelectTemplate_Locator_xPath" xml:space="preserve">
     <value>html/body/form/div[2]/table/tbody/tr[3]/td/table/tbody/tr[2]/td/div/table[2]/tbody/tr/td[1]/input</value>
   </data>
+  <data name="ProgramAdmin_EditTempateCMenuIcon_Locator_Xpath" xml:space="preserve">
+    <value>html/body/form/div[1]/div[3]/div[2]/div/div[8]/div[2]/table/tbody/tr/td/table/tbody/tr[2]/td[3]/div/i</value>
+  </data>
   <data name="ProgramAdmin_ProgramName_Locator_ID" xml:space="preserve">
     <value>aCT_5000000000000179</value>
   </data>
-  <data name="s" xml:space="preserve">
-    <value>s</value>
+  <data name="ProgramAdmin_TemplateGrid_iframe_Locator" xml:space="preserve">
+    <value>_ctl0_PageContent_ifrmMiddle</value>
   </data>
 </root>

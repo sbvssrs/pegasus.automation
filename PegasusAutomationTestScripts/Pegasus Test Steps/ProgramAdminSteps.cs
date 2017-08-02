@@ -47,7 +47,11 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps
             base.AddTemplateFromCatalog();
         }
 
-
+        [Given(@"I click on Context Menu  ""(.*)"" of an Existing Template")]
+        public void GivenIClickOnContextMenuOfAnExistingTemplate(string cMenuName)
+        {
+            base.ClickOnEditTemplate(cMenuName);
+        }
 
     }
 }

@@ -41,5 +41,19 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
             base.WaitForElement();
             base.SwithToDefaultContent();
         }
+        public void ClickOnEditTemplate(String cMenuName)
+        {
+            base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_TemplateGrid_iframe_Locator);
+            base.WaitForElement();
+            IWebElement getCMenuICON = base.GetWebElementPropertiesByXPath(ProgramAdminResources.ProgramAdmin_EditTempateCMenuIcon_Locator_Xpath);
+            base.ClickOnLinkByJavaScriptExecuter(getCMenuICON);
+            base.WaitForElement();
+            IWebElement getCMenuOptions = base.GetWebElementPropertiesByPartialLinkText(cMenuName);
+            base.ClickOnLinkByJavaScriptExecuter(getCMenuOptions);
+            base.WaitForElement();
+        }
     }
 }
+
+
+
