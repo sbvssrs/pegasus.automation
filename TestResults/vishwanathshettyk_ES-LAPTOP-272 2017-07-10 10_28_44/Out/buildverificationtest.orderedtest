@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="OrderedTest1" storage="c:\users\vishwanathshettyk\documents\visual studio 2013\projects\pegasusautomation\pegasusautomationtestscripts\pegasus test suites\orderedtest1.orderedtest" id="af2a94c3-fe86-4b42-a59e-42da16a70840" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="d8518a22-7642-a028-bfa4-7305cb00bd57" name="LoginToPegasusApplication" storage="..\bin\debug\pegasusautomationtestscripts.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="ffced328-2e75-6b58-1de8-533a3464c4ab" name="CreateANewCourseInHomePage" storage="..\bin\debug\pegasusautomationtestscripts.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

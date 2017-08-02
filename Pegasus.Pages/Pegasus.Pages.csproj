@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C748EEA1-BBB5-4423-B18D-CC2EDD69304E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pegasus.Pages</RootNamespace>
+    <AssemblyName>Pegasus.Pages</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.UnitTesting.11.0.50727.1\lib\net45\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium">
+      <HintPath>D:\Java Softwares\selenium-dotnet-2.45.0\net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.Selenium.Core">
+      <HintPath>D:\Java Softwares\selenium-dotnet-2.45.0\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Java Softwares\selenium-dotnet-2.45.0\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Java Softwares\selenium-dotnet-2.45.0\net40\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pegasus Modules\Common Modules\GlobalHomePage.cs" />
+    <Compile Include="Pegasus Modules\Common Modules\GlobalHomePageResourceresx.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalHomePageResourceresx.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Pegasus Modules\Common Modules\LoginPage.cs" />
+    <Compile Include="Pegasus Modules\Common Modules\LoginPageResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginPageResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Pegasus Modules\Instructor Modules\ProgramAdminPage.cs" />
+    <Compile Include="Pegasus Modules\Instructor Modules\ProgramAdminResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProgramAdminResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\PegasusAutomationFramework.csproj">
+      <Project>{a81eaddf-cda5-46e6-8e51-b140f1efa6c2}</Project>
+      <Name>PegasusAutomationFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pegasus Modules\Common Modules\GlobalHomePageResourceresx.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GlobalHomePageResourceresx.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pegasus Modules\Common Modules\LoginPageResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LoginPageResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pegasus Modules\Instructor Modules\ProgramAdminResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProgramAdminResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

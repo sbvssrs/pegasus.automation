@@ -1,0 +1,21 @@
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\PEGASUS TEST SUITES\BuildVerificationTest.orderedtest
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\PegasusAutomationTestScripts.dll.config
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\PegasusAutomationTestScripts.dll
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\PegasusAutomationTestScripts.pdb
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\ClassLibrary1.dll
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\Pegasus.Pages.dll
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\WebDriver.dll
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\log4net.dll
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\WebDriver.Support.dll
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\ClassLibrary1.pdb
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\Pegasus.Pages.pdb
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\WebDriver.pdb
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\WebDriver.xml
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\log4net.xml
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\WebDriver.Support.pdb
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\WebDriver.Support.xml
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.csprojResolveAssemblyReference.cache
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.dll
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.pdb
+C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\PEGASUS TEST SUITES\ProgramAdminWorkflow.orderedtest
