@@ -51,6 +51,16 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
             IWebElement getCMenuOptions = base.GetWebElementPropertiesByPartialLinkText(cMenuName);
             base.ClickOnLinkByJavaScriptExecuter(getCMenuOptions);
             base.WaitForElement();
+            base.SwithToDefaultContent();
+        }
+        public void SelectEditTemplatePopUp(String templateName)
+        {
+            base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_AddTemplatePopup_iframe_Locator_ID);
+            base.WaitForElement();
+            base.clearTextByID(ProgramAdminResources.ProgramAdmin_EditTemplate_TextBox_Locator);
+            base.InsertTextByID(ProgramAdminResources.ProgramAdmin_EditTemplate_TextBox_Locator, templateName);
+            base.WaitForElement();
+            base.ClickonLinkByID(ProgramAdminResources.ProgramAdmin_EditTemplate_SaveAndCloseButton_Locator);
         }
     }
 }

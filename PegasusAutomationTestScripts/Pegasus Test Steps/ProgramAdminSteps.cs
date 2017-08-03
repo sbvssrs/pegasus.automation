@@ -52,6 +52,12 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps
         {
             base.ClickOnEditTemplate(cMenuName);
         }
+        [When(@"I Edit the Template Name ""(.*)""")]
+        public void WhenIEditTheTemplateName(string templateName)
+        {
+            base.SelectEditTemplatePopUp(templateName);
+        }
+
 
     }
 }

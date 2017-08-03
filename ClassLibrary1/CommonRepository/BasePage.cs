@@ -10,16 +10,16 @@ using OpenQA.Selenium.Interactions;
 namespace PegasusAutomationFramework.CommonRepository
 {
     public class BasePage : BrowserFactory
-
     {
-      
+        #region Clicking Button or Link Using IDs
         // CLICK on LINKS 
         public void ClickonLinkByID(String elementID)
         {
             IWebElement ClickonLink = driver.FindElement(By.Id(elementID));
             ClickonLink.Click();
+     
         }
-
+        #endregion
         public void ClickOnLinkbyCSS(String elementID)
         {
             IWebElement ClickonLinkCSS = driver.FindElement(By.CssSelector(elementID));
@@ -182,7 +182,7 @@ namespace PegasusAutomationFramework.CommonRepository
         }
         protected IWebElement GetWebElementPropertiesByXPath(String xPathValue)
         {
-            return GetWebElementProperties(By.XPath(xPathValue));
+            return GetWebElementProperties(By.XPath(xPathValue));   
         }
 
         protected IWebElement GetWebElementPropertiesByPartialLinkText(String patialLinkTextAttributeValue)

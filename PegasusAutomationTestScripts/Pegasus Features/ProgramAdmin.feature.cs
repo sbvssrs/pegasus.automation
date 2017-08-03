@@ -114,6 +114,8 @@ testRunner.Then("I should be redirected to \"Program Administration\" page", ((s
 this.ScenarioSetup(scenarioInfo);
 #line 20
 testRunner.Given("I click on Context Menu  \"Edit Template Information\" of an Existing Template", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 21
+testRunner.When("I Edit the Template Name \"MySpanishLab Template Edited\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             this.ScenarioCleanup();
         }

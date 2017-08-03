@@ -97,6 +97,24 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to btnUpdateTemplateInfo.
+        /// </summary>
+        internal static string ProgramAdmin_EditTemplate_SaveAndCloseButton_Locator {
+            get {
+                return ResourceManager.GetString("ProgramAdmin_EditTemplate_SaveAndCloseButton_Locator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to txtTemplateName.
+        /// </summary>
+        internal static string ProgramAdmin_EditTemplate_TextBox_Locator {
+            get {
+                return ResourceManager.GetString("ProgramAdmin_EditTemplate_TextBox_Locator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to aCT_5000000000000179.
         /// </summary>
         internal static string ProgramAdmin_ProgramName_Locator_ID {
