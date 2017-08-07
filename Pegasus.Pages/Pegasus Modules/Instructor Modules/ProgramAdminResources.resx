@@ -126,6 +126,15 @@
   <data name="ProgramAdmin_AddTemplate_SelectTemplate_Locator_xPath" xml:space="preserve">
     <value>html/body/form/div[2]/table/tbody/tr[3]/td/table/tbody/tr[2]/td/div/table[2]/tbody/tr/td[1]/input</value>
   </data>
+  <data name="ProgramAdmin_CopyTemplate_CmenuIcon_Xpath" xml:space="preserve">
+    <value>html/body/form/div[1]/div[3]/div[2]/div/div[8]/div[2]/table/tbody/tr/td/table/tbody/tr[1]/td[3]/div/i</value>
+  </data>
+  <data name="ProgramAdmin_CopyTemplate_CopyButton_Locator_ID" xml:space="preserve">
+    <value>imgbtnSave</value>
+  </data>
+  <data name="ProgramAdmin_CopyTemplate_CourseTitleTextField_Locator_ID" xml:space="preserve">
+    <value>txtCourseName</value>
+  </data>
   <data name="ProgramAdmin_EditTempateCMenuIcon_Locator_Xpath" xml:space="preserve">
     <value>html/body/form/div[1]/div[3]/div[2]/div/div[8]/div[2]/table/tbody/tr/td/table/tbody/tr[2]/td[3]/div/i</value>
   </data>

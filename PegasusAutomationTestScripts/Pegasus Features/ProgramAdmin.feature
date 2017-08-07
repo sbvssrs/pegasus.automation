@@ -19,4 +19,12 @@ Then  I should be redirected to "Program Administration" page
 Scenario: Edit an existing Template
 Given I click on Context Menu  "Edit Template Information" of an Existing Template
 When I Edit the Template Name "MySpanishLab Template Edited"
-#Then I should be able to see Template updated successfully message. 
+Then I should be able to see "Template updated successfully." message.
+
+#Copy an Existing template
+Scenario: Copy an Existing Template as Template
+Given I click on Context Menu "Copy as Template" 
+And I change the Title as "MySpanishLab-Automated-Copy of Template"
+Then I Should be able to see "Please wait while your copy or copies are being prepared. This may take up to 24 hours. You may need to refresh your screen to see your copies. If you copied as a template, it will appear on the Template tab." message.
+
+

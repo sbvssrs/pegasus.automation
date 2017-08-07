@@ -58,6 +58,33 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps
             base.SelectEditTemplatePopUp(templateName);
         }
 
+        [Then(@"I should be able to see ""(.*)"" message\.")]
+        public void ThenIShouldBeAbleToSeeMessage_(string successMessage)
+        {
+            //successTextContainer is an Class of the Div which holds SuccessFull Message.
+            String actual = base.GetInnerText("#spanMessageBoard");
+            base.WaitForElement();
+            Assert.AreEqual(successMessage, actual);
+        }
+
+        [Given(@"I click on Context Menu ""(.*)""")]
+        public void GivenIClickOnContextMenu(string cMenuOption)
+        {
+            base.CopyTemplateCMenu(cMenuOption);
+        }
+        [Given(@"I change the Title as ""(.*)""")]
+        public void GivenIChangeTheTitleAs(string courseTitle)
+        {
+            base.CopyTemplatePopup(courseTitle);
+        }
+
+        [Then(@"I Should be able to see ""(.*)"" message\.")]
+        public void ThenIShouldSeeMessage(string successMessage)
+        {
+            String actual = base.GetInnerText("#spanMessageBoard");
+            base.WaitForElement();
+            Assert.AreEqual(successMessage, actual);
+        }
 
     }
 }

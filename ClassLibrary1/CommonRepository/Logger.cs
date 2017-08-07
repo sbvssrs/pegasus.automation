@@ -9,30 +9,35 @@ using System.Collections;
 
 namespace PegasusAutomationFramework.CommonRepository
 {
-    public class Logger : AutomationManager
-    {
-        private readonly ILog _Log4netLogger;
-        private static ICollection _configLogs = log4net.Config.XmlConfigurator.Configure();
-        public Logger GetInstance(Type T)
-        {
-            var logger = new Logger(T);
 
-            return logger;
+public static class Logger
+{
+    private static log4net.ILog Log { get; set; }
 
-        }
-
-        private Logger(Type T)
-        {
-            _Log4netLogger = LogManager.GetLogger("PegasusAutomationFramework");
-
-        }
-
-        public void TakeSreenShot(String fileName)
-        {
-          //  ITakesScreenshot screenshothandler = driver as ITakesScreenshot;
-            Screenshot screenshot = ((ITakesScreenshot)AutomationManager.driver).GetScreenshot();
-            screenshot.SaveAsFile(fileName, System.Drawing.Imaging.ImageFormat.Jpeg); 
-        }
-
+    static Logger()
+    { 
+          Log = log4net.LogManager.GetLogger(typeof(Logger));
     }
+
+    public static void Error(object msg)
+    {
+        Log.Error(msg);
+    }
+
+    public static void Error(object msg, Exception ex)
+    {
+        Log.Error(msg, ex);
+    }
+
+    public static void Error(Exception ex)
+    {
+        Log.Error(ex.Message, ex);
+    }
+
+    public static void Info(object msg)
+    {
+        Log.Info(msg);
+    }
+
+}
 }

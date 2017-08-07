@@ -116,6 +116,29 @@ this.ScenarioSetup(scenarioInfo);
 testRunner.Given("I click on Context Menu  \"Edit Template Information\" of an Existing Template", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 21
 testRunner.When("I Edit the Template Name \"MySpanishLab Template Edited\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 22
+testRunner.Then("I should be able to see \"Template updated successfully.\" message.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Copy an Existing Template as Template")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ProgramAdmin")]
+        public virtual void CopyAnExistingTemplateAsTemplate()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Copy an Existing Template as Template", ((string[])(null)));
+#line 25
+this.ScenarioSetup(scenarioInfo);
+#line 26
+testRunner.Given("I click on Context Menu \"Copy as Template\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 27
+testRunner.And("I change the Title as \"MySpanishLab-Automated-Copy of Template\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 28
+testRunner.Then("I Should be able to see \"Please wait while your copy or copies are being prepared" +
+                    ". This may take up to 24 hours. You may need to refresh your screen to see your " +
+                    "copies. If you copied as a template, it will appear on the Template tab.\" messag" +
+                    "e.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

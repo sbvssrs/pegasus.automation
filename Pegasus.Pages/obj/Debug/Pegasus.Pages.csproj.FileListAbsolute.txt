@@ -25,11 +25,6 @@ C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomati
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\Pegasus.Pages\obj\Debug\Pegasus.Pages.dll
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\Pegasus.Pages\obj\Debug\Pegasus.Pages.pdb
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Instructor_Modules.ProgramAdminResources.resources
-D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.csprojResolveAssemblyReference.cache
-D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Common_Modules.GlobalHomePageResourceresx.resources
-D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Common_Modules.LoginPageResource.resources
-D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Instructor_Modules.ProgramAdminResources.resources
-D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.csproj.GenerateResource.Cache
 D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\Pegasus.Pages.dll
 D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\Pegasus.Pages.pdb
 D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\ClassLibrary1.dll
@@ -50,5 +45,10 @@ D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.pdb
 D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.xml
 D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.Support.pdb
 D:\Pegasus.Automation\Pegasus.Pages\bin\Debug\WebDriver.Support.xml
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.csprojResolveAssemblyReference.cache
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Common_Modules.GlobalHomePageResourceresx.resources
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Common_Modules.LoginPageResource.resources
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.Pegasus_Modules.Instructor_Modules.ProgramAdminResources.resources
+D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.csproj.GenerateResource.Cache
 D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.dll
 D:\Pegasus.Automation\Pegasus.Pages\obj\Debug\Pegasus.Pages.pdb

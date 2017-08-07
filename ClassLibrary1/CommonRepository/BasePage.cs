@@ -11,10 +11,13 @@ namespace PegasusAutomationFramework.CommonRepository
 {
     public class BasePage : BrowserFactory
     {
+
+
         #region Clicking Button or Link Using IDs
         // CLICK on LINKS 
         public void ClickonLinkByID(String elementID)
         {
+            Logger.Info("hi");
             IWebElement ClickonLink = driver.FindElement(By.Id(elementID));
             ClickonLink.Click();
      

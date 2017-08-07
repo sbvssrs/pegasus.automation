@@ -52,7 +52,7 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps
             }
             catch (Exception e)
             {
-                base.TakeScreenShot("henIClickOnSignIn");
+                base.TakeScreenShot("WhenIClickOnSignIn");
                 e.GetBaseException();
             }
         }

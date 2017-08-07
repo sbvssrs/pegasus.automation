@@ -10,6 +10,8 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
 {
     public class ProgramAdminPage : BasePage
     {
+
+
         public void OpenProgram(String programName)
         {
             IWebElement getProgramName = base.GetWebElementPropertiesByPartialLinkText(programName);
@@ -43,27 +45,71 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
         }
         public void ClickOnEditTemplate(String cMenuName)
         {
-            base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_TemplateGrid_iframe_Locator);
-            base.WaitForElement();
-            IWebElement getCMenuICON = base.GetWebElementPropertiesByXPath(ProgramAdminResources.ProgramAdmin_EditTempateCMenuIcon_Locator_Xpath);
-            base.ClickOnLinkByJavaScriptExecuter(getCMenuICON);
-            base.WaitForElement();
-            IWebElement getCMenuOptions = base.GetWebElementPropertiesByPartialLinkText(cMenuName);
-            base.ClickOnLinkByJavaScriptExecuter(getCMenuOptions);
-            base.WaitForElement();
-            base.SwithToDefaultContent();
+            try
+            {
+                base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_TemplateGrid_iframe_Locator);
+                base.WaitForElement();
+                IWebElement getCMenuICON = base.GetWebElementPropertiesByXPath(ProgramAdminResources.ProgramAdmin_EditTempateCMenuIcon_Locator_Xpath);
+                base.ClickOnLinkByJavaScriptExecuter(getCMenuICON);
+                base.WaitForElement();
+                IWebElement getCMenuOptions = base.GetWebElementPropertiesByPartialLinkText(cMenuName);
+                base.ClickOnLinkByJavaScriptExecuter(getCMenuOptions);
+                base.WaitForElement();
+                base.SwithToDefaultContent();
+            }
+            catch(Exception e)
+            {
+                base.TakeScreenShot("EditTemplate");
+                e.GetBaseException();
+            }
         }
         public void SelectEditTemplatePopUp(String templateName)
         {
+        
+            {
+                base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_AddTemplatePopup_iframe_Locator_ID);
+                base.WaitForElement();
+                base.clearTextByID(ProgramAdminResources.ProgramAdmin_EditTemplate_TextBox_Locator);
+                base.InsertTextByID(ProgramAdminResources.ProgramAdmin_EditTemplate_TextBox_Locator, templateName);
+                base.WaitForElement();
+                base.ClickonLinkByID(ProgramAdminResources.ProgramAdmin_EditTemplate_SaveAndCloseButton_Locator);
+                base.SwithToDefaultContent();
+            }
+          
+        }
+         public void CopyTemplateCMenu(String cMenuOption)
+           {
+           try
+            {
+                base.WaitForElement();
+                base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_TemplateGrid_iframe_Locator);
+                base.WaitForElement();
+                IWebElement getCmenuIcon= base.GetWebElementPropertiesByXPath(ProgramAdminResources.ProgramAdmin_CopyTemplate_CmenuIcon_Xpath);
+                base.ClickOnLinkByJavaScriptExecuter(getCmenuIcon);
+                IWebElement getCmenuOption = base.GetWebElementPropertiesByPartialLinkText(cMenuOption);
+                base.ClickOnLinkByJavaScriptExecuter(getCmenuOption);
+                base.SwithToDefaultContent();
+             } 
+           catch (Exception e)
+            {
+                base.TakeScreenShot("CopyTemplate");
+                e.GetBaseException();
+            }
+      }
+        public void CopyTemplatePopup(string courseTitle)
+        {
+            base.WaitForElement();
             base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_AddTemplatePopup_iframe_Locator_ID);
             base.WaitForElement();
-            base.clearTextByID(ProgramAdminResources.ProgramAdmin_EditTemplate_TextBox_Locator);
-            base.InsertTextByID(ProgramAdminResources.ProgramAdmin_EditTemplate_TextBox_Locator, templateName);
-            base.WaitForElement();
-            base.ClickonLinkByID(ProgramAdminResources.ProgramAdmin_EditTemplate_SaveAndCloseButton_Locator);
+            base.clearTextByID(ProgramAdminResources.ProgramAdmin_CopyTemplate_CourseTitleTextField_Locator_ID);
+            base.InsertTextByID(ProgramAdminResources.ProgramAdmin_CopyTemplate_CourseTitleTextField_Locator_ID, courseTitle);
+            base.ClickonLinkByID(ProgramAdminResources.ProgramAdmin_CopyTemplate_CopyButton_Locator_ID);
+            base.SwithToDefaultContent();
         }
-    }
+      }
 }
+
+ 
 
 
 
