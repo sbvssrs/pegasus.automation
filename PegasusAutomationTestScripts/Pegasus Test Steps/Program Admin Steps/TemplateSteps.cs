@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow;
-using Pegasus.Pages.Pegasus_Modules.Instructor_Modules;
+using Pegasus.Pages.Pegasus_Modules.PADM_Pages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading;
 
 namespace PegasusAutomationTestScripts.Pegasus_Test_Steps
 {
     [Binding]
-    public sealed class ProgramAdminSteps : ProgramAdminPage
+    public sealed class TemplateSteps : TemplatePage
     {
         [Given(@"I click on ""(.*)"" Program title")]
         public void GivenIClickOnProgramTitle(string programName)
@@ -84,6 +84,17 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps
             String actual = base.GetInnerText("#spanMessageBoard");
             base.WaitForElement();
             Assert.AreEqual(successMessage, actual);
+        }
+        [Given(@"I Select ""(.*)"" cmenu option of a Template")]
+        public void GivenISelectCmenuOptionOfATemplate(string cMenuOption)
+        {
+            base.DeleteTemplate(cMenuOption);
+        }
+        [When(@"I Click on OK button on the confirmation alert")]
+        public void WhenIClickOnOKButtonOnTheConfirmationAlert()
+        {
+            base.WaitForElement();
+            base.ConfirmDeletion();
         }
 
     }

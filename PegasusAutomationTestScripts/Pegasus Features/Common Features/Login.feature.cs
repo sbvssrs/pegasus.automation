@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace PegasusAutomationTestScripts.PegasusFeatures
+namespace PegasusAutomationTestScripts.PegasusFeatures.CommonFeatures
 {
     using TechTalk.SpecFlow;
     
@@ -48,7 +48,7 @@ namespace PegasusAutomationTestScripts.PegasusFeatures
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "Login")))
             {
-                PegasusAutomationTestScripts.PegasusFeatures.LoginFeature.FeatureSetup(null);
+                PegasusAutomationTestScripts.PegasusFeatures.CommonFeatures.LoginFeature.FeatureSetup(null);
             }
         }
         

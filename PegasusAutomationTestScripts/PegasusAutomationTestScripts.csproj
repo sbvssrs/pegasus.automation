@@ -55,25 +55,30 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Pegasus Features\GlobalHomePage.feature.cs">
+    <Compile Include="Pegasus Features\Common Features\GlobalHomePage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GlobalHomePage.feature</DependentUpon>
     </Compile>
-    <Compile Include="Pegasus Features\Login.feature.cs">
+    <Compile Include="Pegasus Features\Common Features\Login.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Login.feature</DependentUpon>
     </Compile>
-    <Compile Include="Pegasus Features\ProgramAdmin.feature.cs">
+    <Compile Include="Pegasus Features\PADM Features\Section.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ProgramAdmin.feature</DependentUpon>
+      <DependentUpon>Section.feature</DependentUpon>
     </Compile>
-    <Compile Include="Pegasus Test Steps\GlobalHomePageSteps.cs" />
-    <Compile Include="Pegasus Test Steps\LoginSteps.cs" />
-    <Compile Include="Pegasus Test Steps\ProgramAdminSteps.cs" />
-    <Compile Include="Pegasus Test Steps\UnitTest1.cs" />
+    <Compile Include="Pegasus Features\PADM Features\Template.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Template.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Pegasus Test Steps\Common Steps\GlobalHomePageSteps.cs" />
+    <Compile Include="Pegasus Test Steps\Common Steps\LoginSteps.cs" />
+    <Compile Include="Pegasus Test Steps\Program Admin Steps\SectionSteps.cs" />
+    <Compile Include="Pegasus Test Steps\Program Admin Steps\TemplateSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,17 +86,21 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-    <None Include="Pegasus Features\GlobalHomePage.feature">
+    <None Include="Pegasus Features\Common Features\GlobalHomePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>GlobalHomePage.feature.cs</LastGenOutput>
     </None>
-    <None Include="Pegasus Features\Login.feature">
+    <None Include="Pegasus Features\Common Features\Login.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Login.feature.cs</LastGenOutput>
     </None>
-    <None Include="Pegasus Features\ProgramAdmin.feature">
+    <None Include="Pegasus Features\PADM Features\Section.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>ProgramAdmin.feature.cs</LastGenOutput>
+      <LastGenOutput>Section.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Pegasus Features\PADM Features\Template.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Template.feature.cs</LastGenOutput>
     </None>
     <None Include="PEGASUS TEST SUITES\BuildVerificationTest.orderedtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

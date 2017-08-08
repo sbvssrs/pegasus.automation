@@ -73,8 +73,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>LoginPageResource.resx</DependentUpon>
     </Compile>
-    <Compile Include="Pegasus Modules\Instructor Modules\ProgramAdminPage.cs" />
-    <Compile Include="Pegasus Modules\Instructor Modules\ProgramAdminResources.Designer.cs">
+    <Compile Include="Pegasus Modules\PADM Pages\SectionPage.cs" />
+    <Compile Include="Pegasus Modules\PADM Pages\SectionPageResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SectionPageResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Pegasus Modules\PADM Pages\TemplatePage.cs" />
+    <Compile Include="Pegasus Modules\PADM Pages\ProgramAdminResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ProgramAdminResources.resx</DependentUpon>
@@ -99,11 +105,16 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>LoginPageResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pegasus Modules\Instructor Modules\ProgramAdminResources.resx">
+    <EmbeddedResource Include="Pegasus Modules\PADM Pages\ProgramAdminResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ProgramAdminResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pegasus Modules\PADM Pages\SectionPageResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SectionPageResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

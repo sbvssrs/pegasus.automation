@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules {
+namespace Pegasus.Pages.Pegasus_Modules.PADM_Pages {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Pegasus.Pages.Pegasus_Modules.Instructor_Modules.ProgramAdminResources", typeof(ProgramAdminResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Pegasus.Pages.Pegasus_Modules.PADM_Pages.ProgramAdminResources", typeof(ProgramAdminResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

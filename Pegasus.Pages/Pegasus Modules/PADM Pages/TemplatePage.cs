@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using PegasusAutomationFramework.CommonRepository;
 using OpenQA.Selenium;
+using System.Threading;
 
-namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
+namespace Pegasus.Pages.Pegasus_Modules.PADM_Pages
 {
-    public class ProgramAdminPage : BasePage
+    public class TemplatePage : BasePage
     {
 
 
@@ -18,7 +19,7 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
             base.WaitForElement();
             base.ClickOnLinkByJavaScriptExecuter(getProgramName);
         }
-        
+
         public void ClickOnAddTemplatesButton()
         {
             base.WaitForElement();
@@ -57,7 +58,7 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
                 base.WaitForElement();
                 base.SwithToDefaultContent();
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 base.TakeScreenShot("EditTemplate");
                 e.GetBaseException();
@@ -65,7 +66,7 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
         }
         public void SelectEditTemplatePopUp(String templateName)
         {
-        
+
             {
                 base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_AddTemplatePopup_iframe_Locator_ID);
                 base.WaitForElement();
@@ -75,27 +76,29 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
                 base.ClickonLinkByID(ProgramAdminResources.ProgramAdmin_EditTemplate_SaveAndCloseButton_Locator);
                 base.SwithToDefaultContent();
             }
-          
+
         }
-         public void CopyTemplateCMenu(String cMenuOption)
-           {
-           try
+        public void CopyTemplateCMenu(String cMenuOption)
+        {
+            try
             {
                 base.WaitForElement();
                 base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_TemplateGrid_iframe_Locator);
                 base.WaitForElement();
-                IWebElement getCmenuIcon= base.GetWebElementPropertiesByXPath(ProgramAdminResources.ProgramAdmin_CopyTemplate_CmenuIcon_Xpath);
+                IWebElement getCmenuIcon = base.GetWebElementPropertiesByXPath(ProgramAdminResources.ProgramAdmin_CopyTemplate_CmenuIcon_Xpath);
                 base.ClickOnLinkByJavaScriptExecuter(getCmenuIcon);
                 IWebElement getCmenuOption = base.GetWebElementPropertiesByPartialLinkText(cMenuOption);
                 base.ClickOnLinkByJavaScriptExecuter(getCmenuOption);
                 base.SwithToDefaultContent();
-             } 
-           catch (Exception e)
+                Thread.Sleep(2000);
+               
+            }
+            catch (Exception e)
             {
                 base.TakeScreenShot("CopyTemplate");
                 e.GetBaseException();
             }
-      }
+        }
         public void CopyTemplatePopup(string courseTitle)
         {
             base.WaitForElement();
@@ -106,7 +109,27 @@ namespace Pegasus.Pages.Pegasus_Modules.Instructor_Modules
             base.ClickonLinkByID(ProgramAdminResources.ProgramAdmin_CopyTemplate_CopyButton_Locator_ID);
             base.SwithToDefaultContent();
         }
-      }
+        public void DeleteTemplate(String cMenuOption)
+
+        {
+         
+                base.WaitForElement();
+                base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_TemplateGrid_iframe_Locator);
+                base.WaitForElement();
+                IWebElement getCmenuIcon = base.GetWebElementPropertiesByXPath(ProgramAdminResources.ProgramAdmin_CopyTemplate_CmenuIcon_Xpath);
+                base.ClickOnLinkByJavaScriptExecuter(getCmenuIcon);
+                IWebElement getCmenuOption = base.GetWebElementPropertiesByPartialLinkText(cMenuOption);
+                getCmenuOption.Click();
+                base.SwithToDefaultContent();
+         
+        }
+        public void ConfirmDeletion()
+        {
+            base.WaitForElement();
+            IWebElement confButton = driver.FindElement(By.Id("confirm"));
+            base.ClickOnLinkByJavaScriptExecuter(confButton);
+        }
+    }
 }
 
  

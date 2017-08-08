@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace PegasusAutomationTestScripts.PegasusFeatures
+namespace PegasusAutomationTestScripts.PegasusFeatures.PADMFeatures
 {
     using TechTalk.SpecFlow;
     
@@ -18,19 +18,19 @@ namespace PegasusAutomationTestScripts.PegasusFeatures
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class ProgramAdminFeature
+    public partial class TemplateFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "ProgramAdmin.feature"
+#line 1 "Template.feature"
 #line hidden
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute()]
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ProgramAdmin", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Template", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
                     "f two numbers", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
@@ -46,9 +46,9 @@ namespace PegasusAutomationTestScripts.PegasusFeatures
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "ProgramAdmin")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "Template")))
             {
-                PegasusAutomationTestScripts.PegasusFeatures.ProgramAdminFeature.FeatureSetup(null);
+                PegasusAutomationTestScripts.PegasusFeatures.PADMFeatures.TemplateFeature.FeatureSetup(null);
             }
         }
         
@@ -70,7 +70,7 @@ namespace PegasusAutomationTestScripts.PegasusFeatures
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Open Program as Program Admin")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ProgramAdmin")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Template")]
         public virtual void OpenProgramAsProgramAdmin()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Open Program as Program Admin", ((string[])(null)));
@@ -86,7 +86,7 @@ testRunner.Then("I should be redirected to \"Program Administration\" page", ((s
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Add New Template from Catalog")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ProgramAdmin")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Template")]
         public virtual void AddNewTemplateFromCatalog()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add New Template from Catalog", ((string[])(null)));
@@ -106,7 +106,7 @@ testRunner.Then("I should be redirected to \"Program Administration\" page", ((s
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Edit an existing Template")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ProgramAdmin")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Template")]
         public virtual void EditAnExistingTemplate()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit an existing Template", ((string[])(null)));
@@ -124,7 +124,7 @@ testRunner.Then("I should be able to see \"Template updated successfully.\" mess
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Copy an Existing Template as Template")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ProgramAdmin")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Template")]
         public virtual void CopyAnExistingTemplateAsTemplate()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Copy an Existing Template as Template", ((string[])(null)));
@@ -133,12 +133,30 @@ this.ScenarioSetup(scenarioInfo);
 #line 26
 testRunner.Given("I click on Context Menu \"Copy as Template\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 27
-testRunner.And("I change the Title as \"MySpanishLab-Automated-Copy of Template\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.And("I change the Title as \"MySpanishLab-Automated-Copy of\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 28
 testRunner.Then("I Should be able to see \"Please wait while your copy or copies are being prepared" +
                     ". This may take up to 24 hours. You may need to refresh your screen to see your " +
                     "copies. If you copied as a template, it will appear on the Template tab.\" messag" +
                     "e.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Delete an existing template")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Template")]
+        public virtual void DeleteAnExistingTemplate()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Delete an existing template", ((string[])(null)));
+#line 31
+this.ScenarioSetup(scenarioInfo);
+#line 32
+testRunner.Given("I Select \"  Delete\" cmenu option of a Template", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 33
+testRunner.When("I Click on OK button on the confirmation alert", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 34
+testRunner.Then("I should be able to see \"Templates deleted successfully.\" message.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

@@ -7,6 +7,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Interactions;
 
+
 namespace PegasusAutomationFramework.CommonRepository
 {
     public class BasePage : BrowserFactory
@@ -214,6 +215,19 @@ namespace PegasusAutomationFramework.CommonRepository
             Actions action =  new Actions(driver);
             action.DragAndDrop(froMelement, ToElement).Perform();
 
+        }
+        public void SelectDropDownByIndex(String dropDownElement)
+        {
+            IWebElement element = driver.FindElement(By.Id(dropDownElement));
+            SelectElement selectoption = new SelectElement(element);
+            selectoption.SelectByIndex(1);
+        }
+        
+        public string GetTodayDate()
+        {
+            DateTime today = DateTime.Today;
+            String todayDate = today.ToString("MM/dd/yyyy");
+            return todayDate;
         }
     
     }
