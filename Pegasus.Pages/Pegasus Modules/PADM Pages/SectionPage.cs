@@ -15,6 +15,7 @@ namespace Pegasus.Pages.Pegasus_Modules.PADM_Pages
         {
             base.ClickonLinkByID(SectionPageResources.Sectoin_NavigateToSection_Locator_ID);
         }
+        //This Method will click on the Add Section Button of Section Tab.
         public void ClickOnAddSectionButton()
         {
             base.WaitForElement();
