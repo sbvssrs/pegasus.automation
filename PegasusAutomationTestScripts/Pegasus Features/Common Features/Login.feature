@@ -3,7 +3,7 @@
 	As a math idiot
 	I want to be told the sum of two numbers
 
-Scenario: Login to Pegasus Application
+Scenario: Login to Pegasus Application as an Instructor
 	Given I have Opened the Browser
 	When I Enter the User Name and Password
 	And  I click on Sign in

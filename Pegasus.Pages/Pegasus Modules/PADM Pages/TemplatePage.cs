@@ -80,9 +80,8 @@ namespace Pegasus.Pages.Pegasus_Modules.PADM_Pages
         }
         public void CopyTemplateCMenu(String cMenuOption)
         {
-            try
-            {
-                base.WaitForElement();
+            
+           base.WaitForElement();
                 base.SwitchToIFrame(ProgramAdminResources.ProgramAdmin_TemplateGrid_iframe_Locator);
                 base.WaitForElement();
                 IWebElement getCmenuIcon = base.GetWebElementPropertiesByXPath(ProgramAdminResources.ProgramAdmin_CopyTemplate_CmenuIcon_Xpath);
@@ -91,13 +90,8 @@ namespace Pegasus.Pages.Pegasus_Modules.PADM_Pages
                 base.ClickOnLinkByJavaScriptExecuter(getCmenuOption);
                 base.SwithToDefaultContent();
                 Thread.Sleep(2000);
-               
-            }
-            catch (Exception e)
-            {
-                base.TakeScreenShot("CopyTemplate");
-                e.GetBaseException();
-            }
+              
+         
         }
         public void CopyTemplatePopup(string courseTitle)
         {

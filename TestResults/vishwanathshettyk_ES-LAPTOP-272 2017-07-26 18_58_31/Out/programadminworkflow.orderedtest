@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<OrderedTest name="ProgramAdminWorkflow" storage="c:\users\vishwanathshettyk\documents\visual studio 2013\projects\pegasusautomation\pegasusautomationtestscripts\pegasus test suites\programadminworkflow.orderedtest" id="573ef481-12d3-4eb4-acee-0f475e7ca84f" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <TestLinks>
-    <TestLink id="d8518a22-7642-a028-bfa4-7305cb00bd57" name="LoginToPegasusApplication" storage="..\bin\debug\pegasusautomationtestscripts.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <TestLink id="9fa007a5-9fb2-e4f5-dbbd-d6ff9895ed86" name="OpenProgramAsProgramAdmin" storage="..\bin\debug\pegasusautomationtestscripts.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-    <TestLink id="cb77b90a-efaf-9198-a02a-ef711a9fff9a" name="AddNewTemplateFromCatalog" storage="..\bin\debug\pegasusautomationtestscripts.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  </TestLinks>
-</OrderedTest>

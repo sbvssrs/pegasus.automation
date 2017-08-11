@@ -129,8 +129,14 @@
   <data name="Section_AddSection_CreationSectionPopup_SectionTitleTextBox_Locator_ID" xml:space="preserve">
     <value>txtCourseName</value>
   </data>
+  <data name="Section_EnterSectionAsInstructor_CMenuIcon_Xpath" xml:space="preserve">
+    <value>html/body/form/div[1]/div[3]/div[2]/div/div[8]/div[2]/table/tbody/tr/td/table/tbody/tr[1]/td[3]/div/i</value>
+  </data>
   <data name="Section_ManageSectionGrid_Iframe_Locator" xml:space="preserve">
     <value>_ctl0_PageContent_ifrmMiddle</value>
+  </data>
+  <data name="Section_SectionContextMenuIcon_Xpath" xml:space="preserve">
+    <value>html/body/form/div[1]/div[3]/div[2]/div/div[8]/div[2]/table/tbody/tr/td/table/tbody/tr[3]/td[3]/div/i</value>
   </data>
   <data name="Sectoin_NavigateToSection_Locator_ID" xml:space="preserve">
     <value>_ctl0_pegHeader_pegMenu_rptMenu__ctl1_Link</value>

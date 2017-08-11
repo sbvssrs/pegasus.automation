@@ -69,11 +69,11 @@ namespace PegasusAutomationTestScripts.PegasusFeatures.CommonFeatures
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Login to Pegasus Application")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Login to Pegasus Application as an Instructor")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Login")]
-        public virtual void LoginToPegasusApplication()
+        public virtual void LoginToPegasusApplicationAsAnInstructor()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login to Pegasus Application", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login to Pegasus Application as an Instructor", ((string[])(null)));
 #line 6
 this.ScenarioSetup(scenarioInfo);
 #line 7

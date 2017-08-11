@@ -222,13 +222,15 @@ namespace PegasusAutomationFramework.CommonRepository
             SelectElement selectoption = new SelectElement(element);
             selectoption.SelectByIndex(1);
         }
-        
+        #region Getting Current date
         public string GetTodayDate()
         {
-            DateTime today = DateTime.Today;
+
+            DateTime today = DateTime.Now;
             String todayDate = today.ToString("MM/dd/yyyy");
             return todayDate;
         }
-    
+        #endregion  
+
     }
 }

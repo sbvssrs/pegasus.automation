@@ -97,11 +97,29 @@ namespace Pegasus.Pages.Pegasus_Modules.PADM_Pages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to html/body/form/div[1]/div[3]/div[2]/div/div[8]/div[2]/table/tbody/tr/td/table/tbody/tr[1]/td[3]/div/i.
+        /// </summary>
+        internal static string Section_EnterSectionAsInstructor_CMenuIcon_Xpath {
+            get {
+                return ResourceManager.GetString("Section_EnterSectionAsInstructor_CMenuIcon_Xpath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _ctl0_PageContent_ifrmMiddle.
         /// </summary>
         internal static string Section_ManageSectionGrid_Iframe_Locator {
             get {
                 return ResourceManager.GetString("Section_ManageSectionGrid_Iframe_Locator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to html/body/form/div[1]/div[3]/div[2]/div/div[8]/div[2]/table/tbody/tr/td/table/tbody/tr[3]/td[3]/div/i.
+        /// </summary>
+        internal static string Section_SectionContextMenuIcon_Xpath {
+            get {
+                return ResourceManager.GetString("Section_SectionContextMenuIcon_Xpath", resourceCulture);
             }
         }
         

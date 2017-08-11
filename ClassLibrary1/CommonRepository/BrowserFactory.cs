@@ -18,10 +18,9 @@ namespace PegasusAutomationFramework.CommonRepository
         public void SetUpDriver()
         {   
 
-            //string Browser = "Chrome";
-           string Environment = "CGIE";
+         
+           string Environment = (ConfigurationManager.AppSettings["Environment"]).ToString();
            string Browser = (ConfigurationManager.AppSettings["Browser"]).ToString();
-           //string Environment = (ConfigurationManager.AppSettings["Environement"]).ToString();
 
             switch(Browser)
             {
@@ -44,6 +43,9 @@ namespace PegasusAutomationFramework.CommonRepository
                     break;
                 case "Prod":
                     driver.Navigate().GoToUrl("http://mylabs.px.pearsoned.com/");
+                    break;
+                case "mmndppe":
+                    driver.Navigate().GoToUrl("http://portalppe.pearsoncmg.com");
                     break;
             }
         

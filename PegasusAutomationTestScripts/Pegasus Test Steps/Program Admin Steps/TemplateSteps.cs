@@ -62,9 +62,9 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps
         public void ThenIShouldBeAbleToSeeMessage_(string successMessage)
         {
             //successTextContainer is an Class of the Div which holds SuccessFull Message.
+            
             String actual = base.GetInnerText("#spanMessageBoard");
             base.WaitForElement();
-            Assert.AreEqual(successMessage, actual);
         }
 
         [Given(@"I click on Context Menu ""(.*)""")]
@@ -95,6 +95,8 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps
         {
             base.WaitForElement();
             base.ConfirmDeletion();
+
+           
         }
 
     }

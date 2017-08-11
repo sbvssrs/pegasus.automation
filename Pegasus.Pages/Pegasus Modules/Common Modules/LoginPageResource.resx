@@ -127,7 +127,7 @@
     <value>.btnnextgen</value>
   </data>
   <data name="peg_login_username" xml:space="preserve">
-    <value>demoinstructor</value>
+    <value>uxdemoinstructor</value>
   </data>
   <data name="peg_login_username_locator_id" xml:space="preserve">
     <value>loginname</value>
