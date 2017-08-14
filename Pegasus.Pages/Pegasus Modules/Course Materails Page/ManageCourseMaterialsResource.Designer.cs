@@ -78,5 +78,14 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page {
                 return ResourceManager.GetString("MCM_CourseMaterailPullDownMenuIcon_Locator_ID", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to html/body/form/div/div[2]/div/div[7]/div/div[2]/div/div/div[2]/div[1]/div/div[1]/div.
+        /// </summary>
+        internal static string MCM_CourseMaterialWizar_AddAssignmentTile_Locator_Xpath {
+            get {
+                return ResourceManager.GetString("MCM_CourseMaterialWizar_AddAssignmentTile_Locator_Xpath", resourceCulture);
+            }
+        }
     }
 }

@@ -18,12 +18,11 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps.CourseMaterials_Steps
          base.SelectCourseMaterailPage(tabName);
      }
 
-     [Given(@"I navigate to Wizard and Click on ""(.*)"" tile")]
-     public void GivenINavigateToWizardAndClickOnTile(string tileName)
+     [Given(@"I navigate to Wizard and Click on Add Assignment tile")]
+     public void GivenINavigateToWizardAndClickOnAddAssignmentTile()
      {
-         base.AddAssignmentsInWizard(tileName);
+         base.AddAssignmentsInWizard();
      }
-
 
     }
 }
