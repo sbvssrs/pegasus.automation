@@ -15,6 +15,7 @@ namespace Pegasus.Pages.Pegasus_Modules.PADM_Pages
         {
             base.ClickonLinkByID(SectionPageResources.Sectoin_NavigateToSection_Locator_ID);
         }
+        //This Method will click on the Add Section Button of Section Tab.
         public void ClickOnAddSectionButton()
         {
             base.WaitForElement();
@@ -56,7 +57,7 @@ namespace Pegasus.Pages.Pegasus_Modules.PADM_Pages
             base.SwithToDefaultContent();
             base.WaitForElement();
             base.SwitchToIFrame(SectionPageResources.Section_ManageSectionGrid_Iframe_Locator);
-            IWebElement getCMenuICon = base.GetWebElementPropertiesByXPath(SectionPageResources.Section_SectionContextMenuIcon_Xpath);
+            IWebElement getCMenuICon = base.GetWebElementPropertiesByXPath(SectionPageResources.Section_EnterSectionAsInstructor_CMenuIcon_Xpath);
             base.ClickOnLinkByJavaScriptExecuter(getCMenuICon);
             base.WaitForElement();
             IWebElement getCMenuOptions = base.GetWebElementPropertiesByPartialLinkText(cMenuOption);
