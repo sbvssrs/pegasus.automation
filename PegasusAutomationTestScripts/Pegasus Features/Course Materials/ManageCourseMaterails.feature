@@ -6,4 +6,4 @@ Scenario: Navigate to Manage Course Material page
 Given I have clicked on "Course Materials" Page
 
 Scenario: Select Add Assignments Tile
-Given I navigate to Wizard and Click on "Add Assignments" tile
+Given I navigate to Wizard and Click on Add Assignment tile

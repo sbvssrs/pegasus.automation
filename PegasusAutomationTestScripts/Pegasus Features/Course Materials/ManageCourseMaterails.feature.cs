@@ -93,7 +93,7 @@ testRunner.Given("I have clicked on \"Course Materials\" Page", ((string)(null))
 #line 8
 this.ScenarioSetup(scenarioInfo);
 #line 9
-testRunner.Given("I navigate to Wizard and Click on \"Add Assignments\" tile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+testRunner.Given("I navigate to Wizard and Click on Add Assignment tile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             this.ScenarioCleanup();
         }

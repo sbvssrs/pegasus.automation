@@ -20,10 +20,10 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page
           //IWebElement getTabName = base.GetWebElementPropertiesByPartialLinkText(tabName);
           //base.ClickOnLinkByJavaScriptExecuter(getTabName);
        }
-      public void AddAssignmentsInWizard(String tileName)
+      public void AddAssignmentsInWizard()
       {
           base.WaitForElement();
-          base.ClickOnLinkbyPartialLinkText(tileName);
+          base.ClickOnLinkByXPATH(ManageCourseMaterialsResource.MCM_CourseMaterialWizar_AddAssignmentTile_Locator_Xpath);
       }
     }
 }
