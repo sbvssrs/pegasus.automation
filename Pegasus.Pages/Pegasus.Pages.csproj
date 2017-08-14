@@ -73,6 +73,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>LoginPageResource.resx</DependentUpon>
     </Compile>
+    <Compile Include="Pegasus Modules\Course Materails Page\ManageCourseMaterialsPage.cs" />
+    <Compile Include="Pegasus Modules\Course Materails Page\ManageCourseMaterialsResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ManageCourseMaterialsResource.resx</DependentUpon>
+    </Compile>
     <Compile Include="Pegasus Modules\PADM Pages\SectionPage.cs" />
     <Compile Include="Pegasus Modules\PADM Pages\SectionPageResources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -104,6 +110,10 @@
     <EmbeddedResource Include="Pegasus Modules\Common Modules\LoginPageResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>LoginPageResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pegasus Modules\Course Materails Page\ManageCourseMaterialsResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ManageCourseMaterialsResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Pegasus Modules\PADM Pages\ProgramAdminResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

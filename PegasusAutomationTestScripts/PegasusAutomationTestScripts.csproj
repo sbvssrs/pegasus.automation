@@ -65,6 +65,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Login.feature</DependentUpon>
     </Compile>
+    <Compile Include="Pegasus Features\Course Materials\ManageCourseMaterails.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ManageCourseMaterails.feature</DependentUpon>
+    </Compile>
     <Compile Include="Pegasus Features\PADM Features\Section.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -77,6 +82,7 @@
     </Compile>
     <Compile Include="Pegasus Test Steps\Common Steps\GlobalHomePageSteps.cs" />
     <Compile Include="Pegasus Test Steps\Common Steps\LoginSteps.cs" />
+    <Compile Include="Pegasus Test Steps\CourseMaterials Steps\ManageCourseMaterailsSteps.cs" />
     <Compile Include="Pegasus Test Steps\Program Admin Steps\SectionSteps.cs" />
     <Compile Include="Pegasus Test Steps\Program Admin Steps\TemplateSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -94,6 +100,10 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Login.feature.cs</LastGenOutput>
     </None>
+    <None Include="Pegasus Features\Course Materials\ManageCourseMaterails.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ManageCourseMaterails.feature.cs</LastGenOutput>
+    </None>
     <None Include="Pegasus Features\PADM Features\Section.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Section.feature.cs</LastGenOutput>
@@ -103,6 +113,9 @@
       <LastGenOutput>Template.feature.cs</LastGenOutput>
     </None>
     <None Include="PEGASUS TEST SUITES\BuildVerificationTest.orderedtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="PEGASUS TEST SUITES\ProductWorkFlow.orderedtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="PEGASUS TEST SUITES\ProgramAdminWorkflow.orderedtest">

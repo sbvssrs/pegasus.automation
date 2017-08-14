@@ -40,3 +40,4 @@ D:\Pegasus.Automation\PegasusAutomationTestScripts\bin\Debug\WebDriver.Support.x
 D:\Pegasus.Automation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.csprojResolveAssemblyReference.cache
 D:\Pegasus.Automation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.dll
 D:\Pegasus.Automation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.pdb
+D:\Pegasus.Automation\PegasusAutomationTestScripts\bin\Debug\PEGASUS TEST SUITES\ProductWorkFlow.orderedtest
