@@ -23,6 +23,29 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps.CourseMaterials_Steps
      {
          base.AddAssignmentsInWizard();
      }
+     [When(@"I select a Folder to add content from CL")]
+     public void WhenISelectAFolderToAddContentFromCL()
+     {
+         base.OpenAFolderinCLWizard();
+         base.WaitForElement();
+         base.SelectAssetsToAdd();
+     }
+     [When(@"I Click on Add to MyCourse Button")]
+     public void WhenIClickOnAddToMyCourseButton()
+     {
+         base.AddToMyCourseButtonInCL();
+     }
+     [When(@"I Select a Target Folder to add")]
+     public void WhenISelectATargetFolderToAdd()
+     {
+         base.SelectTargetFolderinCC();
+     }
+     [When(@"I Click on Addy to My Course Button in CC View")]
+     public void WhenIClickOnAddyToMyCourseButtonInCCView()
+     {
+         base.AddToMyCourseButtonInCC();
+     }
+
 
     }
 }

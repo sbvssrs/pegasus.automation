@@ -71,11 +71,11 @@ namespace PegasusAutomationTestScripts.PegasusFeatures.CourseMaterials
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Navigate to Manage Course Material page")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ManageCourseMaterails")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("ManageCourseMaterails")]
         public virtual void NavigateToManageCourseMaterialPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Navigate to Manage Course Material page", new string[] {
-                        "mytag"});
+                        "ManageCourseMaterails"});
 #line 5
 this.ScenarioSetup(scenarioInfo);
 #line 6
@@ -94,6 +94,14 @@ testRunner.Given("I have clicked on \"Course Materials\" Page", ((string)(null))
 this.ScenarioSetup(scenarioInfo);
 #line 9
 testRunner.Given("I navigate to Wizard and Click on Add Assignment tile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 10
+testRunner.When("I select a Folder to add content from CL", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
+testRunner.And("I Click on Add to MyCourse Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 12
+testRunner.When("I Select a Target Folder to add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 13
+testRunner.And("I Click on Addy to My Course Button in CC View", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

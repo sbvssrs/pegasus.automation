@@ -62,6 +62,15 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to [title*=&apos;Capítulo 01: Hola, ¿qué tal?&apos;].
+        /// </summary>
+        internal static string MCM_CoureMaterialWizard_SelectFolder_Locator_Css {
+            get {
+                return ResourceManager.GetString("MCM_CoureMaterialWizard_SelectFolder_Locator_Css", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to html/body/form/div/div[1]/div/div[4]/div[1]/div/div/div/div/ul/li[3]/span/a[2]/span.
         /// </summary>
         internal static string MCM_CourseMaterailMainMenu_Icon_Locator {
@@ -80,11 +89,47 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to openModalPopupframe.
+        /// </summary>
+        internal static string MCM_CourseMaterailWizard_iFrame_Locator {
+            get {
+                return ResourceManager.GetString("MCM_CourseMaterailWizard_iFrame_Locator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to html/body/form/div/div[2]/div/div[7]/div/div[2]/div/div/div[2]/div[1]/div/div[1]/div.
         /// </summary>
         internal static string MCM_CourseMaterialWizar_AddAssignmentTile_Locator_Xpath {
             get {
                 return ResourceManager.GetString("MCM_CourseMaterialWizar_AddAssignmentTile_Locator_Xpath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [title*=&apos;STUDENT ACTIVITIES MANUAL&apos;].
+        /// </summary>
+        internal static string MCM_CourseMaterialWizard_SelectSourceFolderToAddContent_Locator_Css {
+            get {
+                return ResourceManager.GetString("MCM_CourseMaterialWizard_SelectSourceFolderToAddContent_Locator_Css", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to html/body/form/div/div[3]/div[3]/div[2]/div/div[6]/button.
+        /// </summary>
+        internal static string MCM_CourseMaterilWizard_AddToMyCourseButton_XPATH_Loctator {
+            get {
+                return ResourceManager.GetString("MCM_CourseMaterilWizard_AddToMyCourseButton_XPATH_Loctator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to addContent.
+        /// </summary>
+        internal static string MCM_CourseMaterilWizard_AddToMyCourseButtonCC_Id {
+            get {
+                return ResourceManager.GetString("MCM_CourseMaterilWizard_AddToMyCourseButtonCC_Id", resourceCulture);
             }
         }
     }

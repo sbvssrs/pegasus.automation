@@ -117,13 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="MCM_CoureMaterialWizard_SelectFolder_Locator_Css" xml:space="preserve">
+    <value>[title*='Capítulo 01: Hola, ¿qué tal?']</value>
+  </data>
   <data name="MCM_CourseMaterailMainMenu_Icon_Locator" xml:space="preserve">
     <value>html/body/form/div/div[1]/div/div[4]/div[1]/div/div/div/div/ul/li[3]/span/a[2]/span</value>
   </data>
   <data name="MCM_CourseMaterailPullDownMenuIcon_Locator_ID" xml:space="preserve">
     <value>.insnavopttxt</value>
   </data>
+  <data name="MCM_CourseMaterailWizard_iFrame_Locator" xml:space="preserve">
+    <value>openModalPopupframe</value>
+  </data>
+  <data name="MCM_CourseMaterialWizard_SelectSourceFolderToAddContent_Locator_Css" xml:space="preserve">
+    <value>[title*='STUDENT ACTIVITIES MANUAL']</value>
+  </data>
   <data name="MCM_CourseMaterialWizar_AddAssignmentTile_Locator_Xpath" xml:space="preserve">
     <value>html/body/form/div/div[2]/div/div[7]/div/div[2]/div/div/div[2]/div[1]/div/div[1]/div</value>
+  </data>
+  <data name="MCM_CourseMaterilWizard_AddToMyCourseButtonCC_Id" xml:space="preserve">
+    <value>addContent</value>
+  </data>
+  <data name="MCM_CourseMaterilWizard_AddToMyCourseButton_XPATH_Loctator" xml:space="preserve">
+    <value>html/body/form/div/div[3]/div[3]/div[2]/div/div[6]/button</value>
   </data>
 </root>
