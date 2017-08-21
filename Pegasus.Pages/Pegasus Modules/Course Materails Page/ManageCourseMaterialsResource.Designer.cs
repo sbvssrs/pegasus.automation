@@ -127,9 +127,9 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page {
         /// <summary>
         ///   Looks up a localized string similar to addContent.
         /// </summary>
-        internal static string MCM_CourseMaterilWizard_AddToMyCourseButtonCC_Id {
+        internal static string MCM_CourseMaterilWizard_AddToMyCourseButtonCC_XPATH_Loctator {
             get {
-                return ResourceManager.GetString("MCM_CourseMaterilWizard_AddToMyCourseButtonCC_Id", resourceCulture);
+                return ResourceManager.GetString("MCM_CourseMaterilWizard_AddToMyCourseButtonCC_XPATH_Loctator", resourceCulture);
             }
         }
     }

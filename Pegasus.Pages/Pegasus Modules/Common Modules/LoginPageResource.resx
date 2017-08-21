@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="peg_login_password" xml:space="preserve">
-    <value>Password1</value>
+    <value>Password2</value>
   </data>
   <data name="peg_login_password_locator_id" xml:space="preserve">
     <value>password</value>

@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Pegasus.Pages.Pegasus_Modules.Course_Materails_Page;
+using System.Threading;
 
 namespace PegasusAutomationTestScripts.Pegasus_Test_Steps.CourseMaterials_Steps
 {
@@ -28,7 +30,7 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps.CourseMaterials_Steps
      {
          base.OpenAFolderinCLWizard();
          base.WaitForElement();
-         base.SelectAssetsToAdd();
+         base.SelectAssetsToAdd(2);
      }
      [When(@"I Click on Add to MyCourse Button")]
      public void WhenIClickOnAddToMyCourseButton()
@@ -44,6 +46,21 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps.CourseMaterials_Steps
      public void WhenIClickOnAddyToMyCourseButtonInCCView()
      {
          base.AddToMyCourseButtonInCC();
+     }
+
+     [Then(@"I should be able to see ""(.*)"" message")]
+     public void ThenIShouldBeAbleToSeeMessage(string expectedMessage)
+     {
+         base.WaitForElement();
+         string actualmessage = base.GetInnerTextByXpath("(//span[@class='CCSuccessMsg'])[2]");
+         Assert.AreEqual(actualmessage,actualmessage);
+     }
+     [When(@"I close the Wizard by Clicking on ""(.*)"" button")]
+     public void WhenICloseTheWizardByClickingOnButton(string p0)
+     {
+         Thread.Sleep(2000);
+         base.WaitForElement();
+         base.ClickOnLinkbyPartialLinkText(p0);
      }
 
 

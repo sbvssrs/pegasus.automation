@@ -37,3 +37,5 @@ D:\Pegasus.Automation\ClassLibrary1\bin\Debug\WebDriver.Support.xml
 D:\Pegasus.Automation\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 D:\Pegasus.Automation\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
 D:\Pegasus.Automation\ClassLibrary1\obj\Debug\PegasusAutomationFramework.csprojResolveAssemblyReference.cache
+D:\Pegasus.Automation\ClassLibrary1\obj\Debug\Interop.AutoItX3Lib.dll
+D:\Pegasus.Automation\ClassLibrary1\obj\Debug\PegasusAutomationFramework.csproj.ResolveComReference.cache

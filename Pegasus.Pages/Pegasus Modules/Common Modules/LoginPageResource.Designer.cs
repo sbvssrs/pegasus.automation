@@ -61,7 +61,7 @@ namespace Pegasus.Pages.Pegasus_Modules.Common_Modules {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Password1.
+        ///   Looks up a localized string similar to Password2.
         /// </summary>
         internal static string peg_login_password {
             get {

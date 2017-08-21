@@ -85,23 +85,39 @@ testRunner.Given("I have clicked on \"Course Materials\" Page", ((string)(null))
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Closing the Wizard Dailogue.")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ManageCourseMaterails")]
+        public virtual void ClosingTheWizardDailogue_()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Closing the Wizard Dailogue.", ((string[])(null)));
+#line 8
+this.ScenarioSetup(scenarioInfo);
+#line 9
+testRunner.When("I close the Wizard by Clicking on \"Return to Manage Course Materials\" button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Select Add Assignments Tile")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ManageCourseMaterails")]
         public virtual void SelectAddAssignmentsTile()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Select Add Assignments Tile", ((string[])(null)));
-#line 8
-this.ScenarioSetup(scenarioInfo);
-#line 9
-testRunner.Given("I navigate to Wizard and Click on Add Assignment tile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 10
-testRunner.When("I select a Folder to add content from CL", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 11
-testRunner.And("I Click on Add to MyCourse Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+this.ScenarioSetup(scenarioInfo);
 #line 12
-testRunner.When("I Select a Target Folder to add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.Given("I navigate to Wizard and Click on Add Assignment tile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 13
+testRunner.When("I select a Folder to add content from CL", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 14
+testRunner.And("I Click on Add to MyCourse Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 15
+testRunner.When("I Select a Target Folder to add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 16
 testRunner.And("I Click on Addy to My Course Button in CC View", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 17
+testRunner.Then("I should be able to see \"Assets added successfully.\" message", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

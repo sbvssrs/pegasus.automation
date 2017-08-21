@@ -205,6 +205,13 @@ namespace PegasusAutomationFramework.CommonRepository
           return text;
         }
 
+        public string GetInnerTextByXpath(string element)
+        {
+            IWebElement MessageText = driver.FindElement(By.XPath(element));
+            string text = MessageText.Text;
+            return text;
+        }
+
         public void clickOnLinkByCss(string elementID){
 
             driver.FindElement(By.CssSelector(elementID));

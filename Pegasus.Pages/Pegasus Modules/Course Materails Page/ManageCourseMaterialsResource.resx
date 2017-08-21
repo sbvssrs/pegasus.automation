@@ -135,7 +135,7 @@
   <data name="MCM_CourseMaterialWizar_AddAssignmentTile_Locator_Xpath" xml:space="preserve">
     <value>html/body/form/div/div[2]/div/div[7]/div/div[2]/div/div/div[2]/div[1]/div/div[1]/div</value>
   </data>
-  <data name="MCM_CourseMaterilWizard_AddToMyCourseButtonCC_Id" xml:space="preserve">
+  <data name="MCM_CourseMaterilWizard_AddToMyCourseButtonCC_XPATH_Loctator" xml:space="preserve">
     <value>addContent</value>
   </data>
   <data name="MCM_CourseMaterilWizard_AddToMyCourseButton_XPATH_Loctator" xml:space="preserve">

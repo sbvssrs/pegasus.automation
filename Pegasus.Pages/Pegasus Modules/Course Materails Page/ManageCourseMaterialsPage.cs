@@ -24,7 +24,7 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page
       {
           base.WaitForElement();
           base.ClickOnLinkByXPATH(ManageCourseMaterialsResource.MCM_CourseMaterialWizar_AddAssignmentTile_Locator_Xpath);
-      }
+      }             
       public void OpenAFolderinCLWizard()
       {
           base.WaitForElement();
@@ -34,9 +34,9 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page
           base.WaitForElement();
           base.ClickOnLinkbyCSS(ManageCourseMaterialsResource.MCM_CourseMaterialWizard_SelectSourceFolderToAddContent_Locator_Css);
       }
-      public void SelectAssetsToAdd()
+      public void SelectAssetsToAdd(int num)
       {
-          for (int i = 1; i <= 3; i++)
+          for (int i = 1; i <= num; i++)
           {
               base.ClickOnLinkByXPATH(String.Format("(//input[contains(@id,'grdContentLibrary$_ctrl1')])[{0}]", i));
           }
@@ -52,11 +52,15 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page
           base.ClickOnLinkbyCSS(ManageCourseMaterialsResource.MCM_CoureMaterialWizard_SelectFolder_Locator_Css);
           base.WaitForElement();
           base.ClickOnLinkbyCSS(ManageCourseMaterialsResource.MCM_CourseMaterialWizard_SelectSourceFolderToAddContent_Locator_Css);
+            
+          
       }
       public void AddToMyCourseButtonInCC()
       {
           base.WaitForElement();
-          base.ClickonLinkByID(ManageCourseMaterialsResource.MCM_CourseMaterilWizard_AddToMyCourseButtonCC_Id);
+          base.ClickonLinkByID(ManageCourseMaterialsResource.MCM_CourseMaterilWizard_AddToMyCourseButtonCC_XPATH_Loctator);
+          base.SwithToDefaultContent();
+      
       }
    }
 }
