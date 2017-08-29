@@ -141,4 +141,13 @@
   <data name="MCM_CourseMaterilWizard_AddToMyCourseButton_XPATH_Loctator" xml:space="preserve">
     <value>html/body/form/div/div[3]/div[3]/div[2]/div/div[6]/button</value>
   </data>
+  <data name="MCM_ClosetheWizard_ReturntoMCM_Xpath" xml:space="preserve">
+    <value>html/body/form/div/div[2]/div/div[7]/div/div[3]/button</value>
+  </data>
+  <data name="MCM_CreateMaterails_Button_Css" xml:space="preserve">
+    <value>[title*='Create Materials']</value>
+  </data>
+  <data name="MCM_CreateMaterialsFrame_iFrame" xml:space="preserve">
+    <value>ifrmCoursePreview</value>
+  </data>
 </root>

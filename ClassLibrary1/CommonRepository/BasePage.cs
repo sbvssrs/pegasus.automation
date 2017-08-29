@@ -238,6 +238,13 @@ namespace PegasusAutomationFramework.CommonRepository
             return todayDate;
         }
         #endregion  
-
+        public int GetElementCount(By by)
+        {
+            return driver.FindElements(by).Count;
+        }
+        public int GetElementCountByXPTH(String Xpath)
+        {
+            return GetElementCount(By.XPath(Xpath));
+        }
     }
 }

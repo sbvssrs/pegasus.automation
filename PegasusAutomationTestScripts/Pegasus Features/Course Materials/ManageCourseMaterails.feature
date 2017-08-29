@@ -6,8 +6,18 @@ Scenario: Navigate to Manage Course Material page
 Given I have clicked on "Course Materials" Page
 
 Scenario: Closing the Wizard Dailogue.
-When I close the Wizard by Clicking on "Return to Manage Course Materials" button
+When I close the Wizard by Clicking on Return to Manage Course Materials button
 
+Scenario: Hiding the Folders
+When i Select few folders
+#And I Click on Show/Hide button
+#Then Follders should be hidden
+
+Scenario: Creating a File 
+Given I click on Create Materail button 
+
+
+## WIZARD Cases
 Scenario: Select Add Assignments Tile
 Given I navigate to Wizard and Click on Add Assignment tile
 When I select a Folder to add content from CL

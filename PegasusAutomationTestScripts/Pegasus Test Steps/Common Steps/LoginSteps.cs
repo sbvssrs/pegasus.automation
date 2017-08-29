@@ -54,6 +54,7 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps
             {
                 base.TakeScreenShot("WhenIClickOnSignIn");
                 e.GetBaseException();
+                throw new Exception("Unable to click on SingIn Button");
             }
         }
 

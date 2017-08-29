@@ -62,6 +62,15 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to html/body/form/div/div[2]/div/div[7]/div/div[3]/button.
+        /// </summary>
+        internal static string MCM_ClosetheWizard_ReturntoMCM_Xpath {
+            get {
+                return ResourceManager.GetString("MCM_ClosetheWizard_ReturntoMCM_Xpath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to [title*=&apos;Capítulo 01: Hola, ¿qué tal?&apos;].
         /// </summary>
         internal static string MCM_CoureMaterialWizard_SelectFolder_Locator_Css {
@@ -130,6 +139,24 @@ namespace Pegasus.Pages.Pegasus_Modules.Course_Materails_Page {
         internal static string MCM_CourseMaterilWizard_AddToMyCourseButtonCC_XPATH_Loctator {
             get {
                 return ResourceManager.GetString("MCM_CourseMaterilWizard_AddToMyCourseButtonCC_XPATH_Loctator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [title*=&apos;Create Materials&apos;].
+        /// </summary>
+        internal static string MCM_CreateMaterails_Button_Css {
+            get {
+                return ResourceManager.GetString("MCM_CreateMaterails_Button_Css", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ifrmCoursePreview.
+        /// </summary>
+        internal static string MCM_CreateMaterialsFrame_iFrame {
+            get {
+                return ResourceManager.GetString("MCM_CreateMaterialsFrame_iFrame", resourceCulture);
             }
         }
     }

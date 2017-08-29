@@ -93,7 +93,35 @@ testRunner.Given("I have clicked on \"Course Materials\" Page", ((string)(null))
 #line 8
 this.ScenarioSetup(scenarioInfo);
 #line 9
-testRunner.When("I close the Wizard by Clicking on \"Return to Manage Course Materials\" button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.When("I close the Wizard by Clicking on Return to Manage Course Materials button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Hiding the Folders")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ManageCourseMaterails")]
+        public virtual void HidingTheFolders()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Hiding the Folders", ((string[])(null)));
+#line 11
+this.ScenarioSetup(scenarioInfo);
+#line 12
+testRunner.When("i Select few folders", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Creating a File")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ManageCourseMaterails")]
+        public virtual void CreatingAFile()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Creating a File", ((string[])(null)));
+#line 16
+this.ScenarioSetup(scenarioInfo);
+#line 17
+testRunner.Given("I click on Create Materail button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -104,19 +132,19 @@ testRunner.When("I close the Wizard by Clicking on \"Return to Manage Course Mat
         public virtual void SelectAddAssignmentsTile()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Select Add Assignments Tile", ((string[])(null)));
-#line 11
+#line 21
 this.ScenarioSetup(scenarioInfo);
-#line 12
+#line 22
 testRunner.Given("I navigate to Wizard and Click on Add Assignment tile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 13
+#line 23
 testRunner.When("I select a Folder to add content from CL", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 14
+#line 24
 testRunner.And("I Click on Add to MyCourse Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 15
+#line 25
 testRunner.When("I Select a Target Folder to add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 16
+#line 26
 testRunner.And("I Click on Addy to My Course Button in CC View", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 17
+#line 27
 testRunner.Then("I should be able to see \"Assets added successfully.\" message", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

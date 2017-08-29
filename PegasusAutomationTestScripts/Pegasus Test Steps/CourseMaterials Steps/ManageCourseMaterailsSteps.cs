@@ -55,14 +55,20 @@ namespace PegasusAutomationTestScripts.Pegasus_Test_Steps.CourseMaterials_Steps
          string actualmessage = base.GetInnerTextByXpath("(//span[@class='CCSuccessMsg'])[2]");
          Assert.AreEqual(actualmessage,actualmessage);
      }
-     [When(@"I close the Wizard by Clicking on ""(.*)"" button")]
-     public void WhenICloseTheWizardByClickingOnButton(string p0)
+     [When(@"I close the Wizard by Clicking on Return to Manage Course Materials button")]
+     public void WhenICloseTheWizardByClickingOnReturnToManageCourseMaterialsButton()
      {
-         Thread.Sleep(2000);
-         base.WaitForElement();
-         base.ClickOnLinkbyPartialLinkText(p0);
+         base.CloseTheWizard();
      }
-
-
+     [Given(@"I click on Create Materail button")]
+     public void GivenIClickOnCreateMaterailButton()
+     {
+         base.ClickOnCreateMaterailButton();
+     }
+     [When(@"i Select few folders")]
+     public void WhenISelectFewFolders()
+     {
+         base.SelecttheFolder(3);
+     }
     }
 }

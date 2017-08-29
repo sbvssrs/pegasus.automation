@@ -20,6 +20,7 @@ C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomati
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.pdb
 C:\Users\vishwanathshettyk\Documents\Visual Studio 2013\Projects\PegasusAutomation\PegasusAutomationTestScripts\bin\Debug\PEGASUS TEST SUITES\ProgramAdminWorkflow.orderedtest
 D:\Pegasus.Automation\PegasusAutomationTestScripts\bin\Debug\PEGASUS TEST SUITES\BuildVerificationTest.orderedtest
+D:\Pegasus.Automation\PegasusAutomationTestScripts\bin\Debug\PEGASUS TEST SUITES\ProductWorkFlow.orderedtest
 D:\Pegasus.Automation\PegasusAutomationTestScripts\bin\Debug\PEGASUS TEST SUITES\ProgramAdminWorkflow.orderedtest
 D:\Pegasus.Automation\PegasusAutomationTestScripts\bin\Debug\PegasusAutomationTestScripts.dll.config
 D:\Pegasus.Automation\PegasusAutomationTestScripts\bin\Debug\PegasusAutomationTestScripts.dll
@@ -40,4 +41,3 @@ D:\Pegasus.Automation\PegasusAutomationTestScripts\bin\Debug\WebDriver.Support.x
 D:\Pegasus.Automation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.csprojResolveAssemblyReference.cache
 D:\Pegasus.Automation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.dll
 D:\Pegasus.Automation\PegasusAutomationTestScripts\obj\Debug\PegasusAutomationTestScripts.pdb
-D:\Pegasus.Automation\PegasusAutomationTestScripts\bin\Debug\PEGASUS TEST SUITES\ProductWorkFlow.orderedtest

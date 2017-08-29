@@ -37,6 +37,11 @@ namespace Pegasus.Pages.Pegasus_Modules.Common_Modules
 
         public void selectACourse()
         {
+           // int rowCount = base.GetElementCountByXPTH("//div[Contains(@Class, 'selectCoursebutton')]");
+            //for (int i=0; i<rowCount; i++)
+            //{
+
+            //}
             base.ClickOnLinkByXPATH(GlobalHomePageResourceresx.globalhomepage_createCourse_SelectCourseinCatalog_locator_Xpath);
         }
 
